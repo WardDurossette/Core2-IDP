@@ -10,16 +10,6 @@
                 "${workspaceFolder}/Core2-IDP.csproj"
             ],
             "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/Core2-IDP.csproj"
-            ],
-            "problemMatcher": "$msCompile"
         }
     ]
 }
