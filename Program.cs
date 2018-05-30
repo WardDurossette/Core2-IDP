@@ -16,7 +16,7 @@ namespace Core2_IDP
         {
             BuildWebHost(args).Run();
         }
-
+//need to add code to pull secrets.json
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
